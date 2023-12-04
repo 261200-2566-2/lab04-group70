@@ -1,17 +1,32 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
-public class Main {
-    public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.print("Hello and welcome!");
+//Class Charecter
+//        Wizard ใช้เวทมนต์ในการโจมตียูนิตศัตรูได้ โดยจะใช้ Mp ในการร่ายเวทมนต์ โดยค่า Stat  พื้นฐานจะเด่นไปทาง Intelligence และ Mp แต่ HP กับ SPD จะค่อนข้างน้อย เนื่องจากว่าศึกษาเวทและตำราเยอะทำให้ไม่มีเวลาดูแลสุขภาพ เลยทำให้เลือดและช้า
+//        Stat :
+//        Hp	50  +5*level
+//        Mp		    120  +10*level
+//        ATK		    3 +1*level
+//        Int		    12 +2 *level
+//        Def		    5 +1*level
+//        SPD 		7 +0.5*level
+//        Skill : มีสกิลโจมตีต่างๆเป็นธาตุ โดดเด่นในการโจมตีหมู่ (AOE)
+//        Fire Ball โจมตีด้วยลูกไฟ ดาเมจ 100% ของค่า Intถ้าตัวที่โดนโจมตีตายด้วยสกิลนี้ จะทำให้ กระเด็นโดนตัวด้านข้าง 2 ตัว (ซ้าย-ขวา) จะโดนดาเมจของสกิลนี้ 50 % ใช้ MP 20 ในการร่าย
+//        Lightning Spear ใช้เวทมนต์เรียกสายฟ้าออกมาละขว้างออกไปโดนศัตรู ทำดาเมจ 1 ตัว ดาเมจ จะเป็น
+//        150% ของ ค่า Int
+//        Thunderstorm เรียกสายฟ้าออกมาผ่าใส่ศัตรู 3 ตัวที่อยู่ติดกัน ดาเมจของสกิลนี้จะนำเอาค่า Int มาหาร 3 ใช้ MP 30 ในการร่าย
+//        Monk ใช้เวทมนต์ในการรักษาเพื่อนร่วมทีมในปาตี้ได้ โดยจะใช้ Mp ในการร่ายเวทมนต์ โดยค่า Stat  พื้นฐานจะเด่นไปทาง HP และ MP  แต่ มี ATK  กับ Intelligence ค่อนข้างน้อย ด้วยความเป็นนักบุญทำให้ไม่สามารถโจมตีได้แรงเพราะไม่ได้จับดาบจับอาวุธเหมือนอาชีพอื่น
+//        Stat :
+//        Hp		80 +15*level
+//        Mp		        150 +10*level
+//        ATK		        5 + 1*level
+//        Int		        5 + 1*level
+//        Def		        8 +2*level
+//        SPD 		    10 +1*level
+//        Skill : สกิลส่วนใหญ่จะเป็นประเภทรักษาเพื่อนและการลดดาเมจที่ได้รับจากศัตรู และด้วยความเป็นพระ อันเดธส่วนใหญ่จะแพ้ สกิลของคลาสนี้อย่างมาก
+//        Heal รักษาเพื่อนร่วมทีม 30 HP ใช้ค่า MP 50
+//        Light Protection ลบค่าสถานะผิดปกติเพื่อนร่วมทีมหรือตัวเอง ใช้ค่า MP 30
+//        Projected Heal รักษาเพื่อนร่วมทีมทุกคนรวมถึงตัวเอง 20 HP ใช้ค่า MP 100
+//
+//Class Accessory
+//        Necklace สร้อยใช้สวมใส่เพื่อเพิ่มค่า HP
+//        Stat : HP+20 +5*level
+//        Ring ใส่เพื่อเพิ่มค่าสถานะบางค่าเช่น ATK Int Def แต่จะได้แค่สถานะเดียว
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
-    }
-}
